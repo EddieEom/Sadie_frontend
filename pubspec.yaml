@@ -1,0 +1,43 @@
+name: frontend
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  package_info_plus: ^8.0.0
+  flutter_markdown: ^0.7.7+1
+  http: ^1.1.0
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.4 
+  flutter_secure_storage: ^10.0.0
+  google_sign_in: ^6.2.1
+  firebase_core: ^3.1.0
+  image_picker: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+# 🔥 아이콘 생성 설정
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  adaptive_icon_background: "#008080"
+  adaptive_icon_foreground: "assets/images/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  # 🔥 에셋 경로 등록 (이미지 폴더)
+  assets:
+    - assets/images/

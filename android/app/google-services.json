@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "648311520592",
+    "project_id": "sadie-32301",
+    "storage_bucket": "sadie-32301.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648311520592:android:9e46e590d8b6a5e6168055",
+        "android_client_info": {
+          "package_name": "com.example.frontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEx5fQ_cx7GWuHx-NQlvSHi_gVIH9jFtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
